@@ -59,6 +59,7 @@ As we can see there is a lot going on in the verification process, so it makes s
 ---
 
 ### Implementation Outline
+*Note: Any code snippets provided should be considered as pseudo-code.*
 
 <img width="988" alt="Screenshot 2024-11-04 at 6 50 32 AM" src="https://github.com/user-attachments/assets/48d827b5-8a7c-4387-b8ea-588848dee2a5">
 
