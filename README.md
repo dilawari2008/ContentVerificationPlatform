@@ -47,7 +47,8 @@ The Verification process has the following **heirarchy**:
 - **Automated Initial Verification**: Speeds up the approval process by using AI to quickly confirm that NFTs are travel-related, filtering out non-relevant content like art or music.
 - **Community-driven Manual Verification**: If a listing's verification status is contested by users, the item moves to **manual verification**. A community-driven approach allows any three independent users to collectively verify the content, each receiving a small payment per verified task. If all three users agree on the status, it becomes the new verification outcome.
 - **Final SME (Subject Matter Expert) Review**: Provides an expert (expert belongs to the NFT Marketplace org) review for contested cases, maintaining high standards and accuracy in verification.
-- **Future-proof Workflow**: Designed as a modular component, the verification system can scale or accommodate more complex workflows as the marketplace evolves.
+
+As we can see there is a lot going on in the verification process, so it makes sense to isolate it into a separate module so that in future more complex workflows can be accomodated as the process evolves.
 
 
 ---
