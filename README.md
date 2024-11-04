@@ -11,7 +11,8 @@ A lot of times content verification needs to be done to check if the content bei
 
 Using Reactive Smart Contracts (RSC's) these two modules can be isolated and used separately, so that we can plug and play with the different combinations of each module, i.e. a listing module can connect to a different verification module if it finds the current verification module unsatisfactory, and a verification module can be used by several listing modules. This also keeps the verification process asynchronous.
 
-Demo Video - https://www.loom.com/share/08a4cb3546bd457a85afb2af632d1a2d?sid=e057909a-6fe7-4fdd-a6fa-df9411fb9fb1
+#### Demo Video
+https://www.loom.com/share/08a4cb3546bd457a85afb2af632d1a2d?sid=e057909a-6fe7-4fdd-a6fa-df9411fb9fb1
 
 ### Scenario
 
