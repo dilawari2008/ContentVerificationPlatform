@@ -41,21 +41,24 @@ https://www.loom.com/share/08a4cb3546bd457a85afb2af632d1a2d?sid=e057909a-6fe7-4f
 2. **Initial Metadata Handling**  
    NFT details are stored with initial verification data: attempts set to 0, status as "InProgress," and `isMaxVerificationDone` as false.
 
-3. **Verification Process Initiation**  
+   ##### Verification Heirarchy
+   Ai -> Manual -> Subject Matter Expert
+
+   Most of the Verification will be carried out by AI as manual efforts for a large number of listings is tedious. When challenged, the verification process will repeat, but     this time one step higher in the heirarchy, which the verification contract comes to know of using the `attempts` value.
+
+   `isMaxVerificationDone` - When the verification is carried out by the top verification entity in the heirarchy, i.e.  Subject Matter Expert, it cannot be challenged any further.
+
+4. **Verification Process Initiation**  
    Metadata is sent to `RSC1` for verification. An event is emitted, which is indexed by the listing dApp to display NFT's verification status to the user.
 
-4. **Verification Stages**  
+5. **Verification Stages**  
    `RSC1` subscribes to this event and calls `attemptVerificationCallback` on the `VerificationContract`. Verification is carried out through one of AI, manual, and subject-matter expert checks based on the number of attempts.
 
-5. **Verification Categorization**  
+6. **Verification Categorization**  
    Each verification method (AI, manual, or expert) emits an event. The verification dApp indexes these events to display jobs accordingly. AI verification operates on batches via Chainlink Keepers calling an off chain Ai verification api via Chainlink External Adapters, while manual and expert jobs are picked by respective parties.
 
-6. **Completion and Status Update**  
+7. **Completion and Status Update**  
    Once verified, an event with the results is emitted. `RSC2` subscribes to this event and calls `verificationStatusUpdateCallback` on the `ListingContract`. If verified, the NFT becomes visible on the dashboard. Users may challenge the results, escalating to higher verification levels as needed.
-
-Verification Heirarchy - Ai -> Manual -> Subject Matter Expert
-
-Most of the Verification will be carried out by AI as manual efforts for a large number of listings is tedious. When challenged, the verification process will repeat, but this time one step higher in the heirarchy, which the verification contract comes to know of using the `attempts` value.
 
 ---
 
