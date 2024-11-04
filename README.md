@@ -29,7 +29,7 @@ https://www.loom.com/share/08a4cb3546bd457a85afb2af632d1a2d?sid=e057909a-6fe7-4f
 
 ### Implementation Outline
 
-*View the video for better understanding.*
+*Watch the video for better understanding.*
 
 *Note: This repository provides the approach only, not the complete dApp implementation. Code snippets are illustrative, should be considered as pseudo code.*
 
