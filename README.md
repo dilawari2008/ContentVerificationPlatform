@@ -39,6 +39,8 @@ Consider an NFT Marketplace focused on travel-related content. Users list travel
 
 Too much manual verification could cause delays, so the platform employs automated verification methods. Users can challenge any verifications they deem incorrect, triggering a manual verification process if needed. Once verified, relevant NFTs appear on the dashboard, filtering out non-travel content (such as art or music).
 
+---
+
 #### Demo Video
 https://www.loom.com/share/08a4cb3546bd457a85afb2af632d1a2d?sid=e057909a-6fe7-4fdd-a6fa-df9411fb9fb1
 
