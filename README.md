@@ -54,7 +54,7 @@ As we can see there is a lot going on in the verification process, so it makes s
 ---
 
 #### Demo Video
-[Watch Video: All code snippets are to be treated as pseudo code.](https://www.loom.com/share/c95dfb179d30416591734c536dfdd6cf?sid=51e58c8e-b01a-4477-ac89-dea16373a098)
+[Watch Video: **All code snippets are to be treated as pseudo code.**](https://www.loom.com/share/c95dfb179d30416591734c536dfdd6cf?sid=51e58c8e-b01a-4477-ac89-dea16373a098)
 https://www.loom.com/share/c95dfb179d30416591734c536dfdd6cf?sid=51e58c8e-b01a-4477-ac89-dea16373a098
 
 ---
