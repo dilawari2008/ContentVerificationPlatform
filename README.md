@@ -4,6 +4,23 @@
 
 ---
 
+### Contents
+- [Concept Overview](#concept-overview)
+- [Scenario Example](#scenario-example)
+- [Demo Video](#demo-video)
+- [Implementation Outline](#implementation-outline)
+- [Workflow Summary](#workflow-summary)
+  - [Listing Attempt](#listing-attempt)
+  - [Initial Metadata Handling](#initial-metadata-handling)
+    - [Verification Heirarchy](#verification-heirarchy)
+  - [Verification Process Initiation](#verification-process-initiation)
+  - [Verification Stages](#verification-stages)
+  - [Verification Categorization](#verification-categorization)
+  - [Completion and Status Update](#completion-and-status-update)
+- [Modular Verification System](#modular-verification-system)
+
+---
+
 ### Concept Overview
 
 Content verification is essential to ensure that uploaded content aligns with platform standards. This platform is divided into two primary modules:
