@@ -39,6 +39,17 @@ Consider an NFT Marketplace focused on travel-related content. Users list travel
 
 Too much manual verification could cause delays, so the platform employs automated verification methods. Users can challenge any verifications they deem incorrect, triggering a manual verification process if needed. Once verified, relevant NFTs appear on the dashboard, filtering out non-travel content (such as art or music).
 
+The Verification process has the following **heirarchy**:
+   Ai -> Manual -> Subject Matter Expert.
+
+#### Verification Process Overview
+
+- **Automated Initial Verification**: Speeds up the approval process by using AI to quickly confirm that NFTs are travel-related, filtering out non-relevant content like art or music.
+- **Community-driven Manual Verification**: If a listing's verification status is contested by users, the item moves to **manual verification**. A community-driven approach allows any three independent users to collectively verify the content, each receiving a small payment per verified task. If all three users agree on the status, it becomes the new verification outcome.
+- **Final SME (Subject Matter Expert) Review**: Provides an expert (expert belongs to the NFT Marketplace org) review for contested cases, maintaining high standards and accuracy in verification.
+- **Future-proof Workflow**: Designed as a modular component, the verification system can scale or accommodate more complex workflows as the marketplace evolves.
+
+
 ---
 
 #### Demo Video
