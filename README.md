@@ -22,7 +22,7 @@ Once the verification is successful, the listing platform can show the listing o
 
 _Reminder - This repo just has the approach and not the dapp implementation. Any code snippet should be treated as a pseudo code snippet._
 
-<img width="896" alt="Screenshot 2024-11-04 at 6 11 17 AM" src="https://github.com/user-attachments/assets/219ab471-add9-4607-8a4e-9d1216ba6055">
+<img width="988" alt="Screenshot 2024-11-04 at 6 50 32 AM" src="https://github.com/user-attachments/assets/48d827b5-8a7c-4387-b8ea-588848dee2a5">
 
 #### Explanation
 1. The user attempts to list their nft on the listing dapp, which gets registered in the contract but not visible on the dashboard.
