@@ -1,4 +1,4 @@
-# Reactive Network Hackathon - Content Verification Platform
+# Reactive Network Hackathon - Content Verification Platform (No Code Track)
 
 _Note - This repo just has the approach and not the dapp implementation. Any code snippet should be treated as a pseudo code snippet._
 
