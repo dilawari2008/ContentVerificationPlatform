@@ -47,6 +47,9 @@ _Reminder - This repo just has the approach and not the dapp implementation. Any
 13. If it is not verified and the user feels there is a mistake, they can challenge, in which the verification process will repeat but with one verification method up in the heirarchy (Ai -> Manual -> SubjectMatterExpert).
 14. If at any point isMaxVerificationDone is true, the user cannot challenge.
 
+While attmpting to verify the Listing Contract is the origin and the Verification Contract is the Destination and vice versa when updating the verification status.
+
+<img width="818" alt="Screenshot 2024-11-04 at 7 33 36 AM" src="https://github.com/user-attachments/assets/1e28480b-ba28-427b-907f-eb65ca70859d">
 
 ### Changing the modules
 If someone wants a new Verification Module, they can change the subscriber in RSC2 and callback in RSC1 to point to the new Verification Module.
