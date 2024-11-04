@@ -55,13 +55,10 @@ As we can see there is a lot going on in the verification process, so it makes s
 
 #### Demo Video
 [Watch Video: **All code snippets are to be treated as pseudo code.**](https://www.loom.com/share/c95dfb179d30416591734c536dfdd6cf?sid=51e58c8e-b01a-4477-ac89-dea16373a098)
-https://www.loom.com/share/c95dfb179d30416591734c536dfdd6cf?sid=51e58c8e-b01a-4477-ac89-dea16373a098
 
 ---
 
 ### Implementation Outline
-
-*Watch the video for better understanding.*
 
 <img width="988" alt="Screenshot 2024-11-04 at 6 50 32 AM" src="https://github.com/user-attachments/assets/48d827b5-8a7c-4387-b8ea-588848dee2a5">
 
